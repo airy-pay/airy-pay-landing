@@ -10,18 +10,13 @@
     <link rel="stylesheet" href="main.css">
     <link rel="icon" type="image/x-icon" href="main.ico">
     <title>Airy Pay - монетизация Discord серверов</title>
+    <script defer src="main.js"></script>
 </head>
 
 <body>
     <header>
         <div class="headerContent">
             <img src="assets/main-logo.png" alt="AiryPay" class="mainLogoImg" onclick="location='https://airypay.ru/'">
-            <div class="userAreaButton" onclick="location='https://cp.airypay.ru/'">
-                <img src="assets/icons/user.png" alt="user" class="userIconImg">
-                <span class="userAreaText">
-                    Личный Кабинет
-                </span>
-            </div>
         </div>
     </header>
     <div class="content">
@@ -36,7 +31,7 @@
                     Мы делаем продажу товаров на Discord серверах проще.
                 </div>
                 <div class="buttonShopHolder">
-                    <div class="button" onclick="location='https://cp.airypay.ru/'">Создать магазин</div>
+                    <div class="button" onclick="location='https://cp.airypay.ru/'">Пригласить бота</div>
                 </div>
             </div>
         </div>
@@ -50,7 +45,7 @@
                     </div>
                 </div>
                 <div class="serviceDescription">
-                    Принимайте пожертвования и донаты от участников вашего Discord сервера.
+                    Принимайте пожертвования и продавайте товары участникам вашего сервера.
                 </div>
             </div>
             <div class="serviceItem">
@@ -61,7 +56,7 @@
                     </div>
                 </div>
                 <div class="serviceDescription">
-                    Ваши клиенты смогут оплатить услугу любым из популярных способов оплаты.
+                    Оплата услуг разными способами: Карты, СБП, YooMoney, криптовалюты и другие.
                 </div>
             </div>
             <div class="serviceItem">
@@ -72,7 +67,7 @@
                     </div>
                 </div>
                 <div class="serviceDescription">
-                    Мы предоставляем вам инструменты для сбора статистики о покупках.
+                    История и статистика покупок магазина прямо в боте.
                 </div>
             </div>
             <div class="serviceItem">
@@ -83,7 +78,7 @@
                     </div>
                 </div>
                 <div class="serviceDescription">
-                    Если у вас есть какие-либо вопросы или возникла проблема, то мы готовы помочь вам.
+                    Готовы помочь в случае возникновения вопросов.
                 </div>
             </div>
             <div class="serviceItem">
@@ -94,7 +89,7 @@
                     </div>
                 </div>
                 <div class="serviceDescription">
-                    Вы сможете осуществлять продажи уже через 10 минут после начала пользования сервисом.
+                    Начните продажи через 5 минут после начала использования сервиса.
                 </div>
             </div>
         </div>
@@ -111,22 +106,6 @@
             </div>
             <div class="faqBlock">
                 <div class="question">
-                    Какую прибыль я получу?
-                </div>
-                <div class="answer">
-                    Мы берём всего лишь 5% комиссии с покупок, которые идут на поддержание работы сервиса.
-                </div>
-            </div>
-            <div class="faqBlock">
-                <div class="question">
-                    Можно ли использовать своего бота?
-                </div>
-                <div class="answer">
-                    Да, мы предоставляем возможность подключения системы к вашему личному боту.
-                </div>
-            </div>
-            <div class="faqBlock">
-                <div class="question">
                     Документация
                 </div>
                 <div class="answer">
@@ -135,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <h3>Как это работает?</h3>
+        <h3>Инструкция</h3>
         <div class="howItWorks">
             <div class="howItWorksBlock">
                 <div class="counterHead">
@@ -156,11 +135,11 @@
                         2
                     </span>
                     <span class="counterName">
-                        Создайте магазин
+                        Добавьте роли
                     </span>
                 </div>
                 <div class="howItWorksText">
-                    Пройдите авторизацию, создайте новый магазин для вашего Discord сервера.
+                    Добавьте на сервер роли, которые будете продавать.
                 </div>
             </div>
             <div class="howItWorksBlock">
@@ -173,7 +152,7 @@
                     </span>
                 </div>
                 <div class="howItWorksText">
-                    Выберите товары, которые вы будете продавать.
+                    Добавьте товары для продажи при помощи команды /product add.
                 </div>
             </div>
             <div class="howItWorksBlock blockBlue">
@@ -186,18 +165,18 @@
                     </span>
                 </div>
                 <div class="howItWorksText">
-                    Создайте канал для продажи на вашем сервере при помощи команды /addshop.
+                    Создайте сообщение для продажи при помощи команды /setup.
                 </div>
             </div>
         </div>
         <div class="joinUs">
             <div class="button" onclick="location='https://cp.airypay.ru/'">
-                Попробуйте прямо сейчас!
+                Пригласить бота
             </div>
         </div>
         <footer class="footerMain">
             <span class="rightsProtected">
-                AiryPay © 2023. Все права защищены.
+                © AiryPay
             </span>
             <span class="footerLinks">
                 <a href="terms.html">Условия оказания услуг</a> -
@@ -206,7 +185,4 @@
         </footer>
     </div>
 </body>
-
-<script src="main.js"></script>
-
 </html>
